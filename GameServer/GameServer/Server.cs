@@ -11,7 +11,6 @@ namespace GameServer
         public static int Port { get; private set; }
         public static readonly Dictionary<int, Client> Clients = new Dictionary<int, Client>();
         
-
         private static TcpListener _tcpListener;
 
         public static void Start(int maxPlayer, int port)
