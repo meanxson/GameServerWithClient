@@ -6,7 +6,7 @@ namespace GameServer
 {
     public class Client
     {
-        public static int dataBufferSize = 4096;
+        public static int DataBufferSize = 4096;
         
         public int Id;
         public TCP Tcp;
